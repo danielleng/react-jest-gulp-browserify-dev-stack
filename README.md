@@ -1,6 +1,6 @@
 # README #
 
-React playground stack for the following Javascript libraries:
+React dev stack for the following Javascript libraries:
 
 1. React + ReactDOM
 2. Jest

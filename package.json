@@ -1,6 +1,7 @@
 {
-  "name": "react-javascript-playground",
+  "name": "react-jest-gulp-browserify-dev-stack",
   "version": "1.0.0",
+  "description": "React dev stack for the following libraries: React, Jest, Gulp, Babel and Browserify. Comes with basic Gulp presets for you to start playing around immediately.",
   "scripts": {
     "build": "gulp build",
     "test": "jest"
