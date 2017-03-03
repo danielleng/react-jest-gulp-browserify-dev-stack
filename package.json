@@ -1,0 +1,22 @@
+{
+  "name": "javascript-algo-playground",
+  "version": "1.0.1a",
+  "scripts": {
+    "build": "gulp build",
+    "test": "jest"
+  },
+  "jest": {
+    "rootDir": "js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jest": "^1.0.0",
+    "jest": "^18.1.0",
+    "jest-cli": "^18.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {}
+}
