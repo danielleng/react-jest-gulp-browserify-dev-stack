@@ -17,10 +17,10 @@ var paths = {
 
 gulp.task('clean', function () {
     return browserify({entries: paths.appjs, extensions: ['.js'], debug: true})
-        .transform(babelify)                    // Babel transform
-        .bundle()                               // Compile browserify
+        .transform(babelify, {presets: ["es2015", "react"]})     // Babel transform
+        .bundle()                                                // Compile browserify
         .pipe(source('bundle.js'))               
-        .pipe(gulp.dest(paths.cleanpath));      // use gulp.dest to set destination
+        .pipe(gulp.dest(paths.cleanpath));                       // use gulp.dest to set destination
 });
 
 gulp.task('build', function() {
