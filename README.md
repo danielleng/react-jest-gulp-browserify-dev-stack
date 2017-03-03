@@ -1,6 +1,6 @@
 # README #
 
-Javascript playground (experimental) for the following Javascript libraries/frameworks:
+React playground stack for the following Javascript libraries:
 
 1. React + ReactDOM
 2. Jest
@@ -10,7 +10,7 @@ Javascript playground (experimental) for the following Javascript libraries/fram
 
 ### What is this repository for? ###
 
-A configured stack for you to quickly get up to speed with React development. 
+A configured stack for you to quickly get up to speed with React development and experimenting with a slightly different React ecosystem, one without Webpack.
 
 1. **Jest** for testing: https://facebook.github.io/jest/
 2. **Gulp** for build and deployment: http://gulpjs.com/
@@ -28,12 +28,19 @@ Also included is a Gulp config file with barebones settings to get everything up
 
 ### How do I get set up? ###
 
+Install dependencies:
+
 ```
 npm install
 ```
+
+Run an initial bundle:
+
 ```
 gulp clean
 ```
+
+You can then start development and watch file changes with `gulp watch`.
 
 ### How do I remove the "playground" code and start writing my own stuff? ###
 
