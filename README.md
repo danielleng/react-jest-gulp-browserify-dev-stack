@@ -1,5 +1,7 @@
 # README #
 
+### This repository is archived and superceded by https://github.com/danielleng/webpack-react-redux-jest-babel-eslint-boilerplate ###
+
 React dev stack for the following Javascript libraries:
 
 1. React + ReactDOM
